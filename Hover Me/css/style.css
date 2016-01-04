@@ -1,0 +1,44 @@
+*{
+  box-sizing:border-box;
+}
+html,body{
+  position:relative;
+}
+body{
+  /*max-width:500px;*/
+  margin:0 auto;
+  /*padding:1em;*/
+  font-size:16px;
+}
+
+img{
+  display:block;
+  /*width:100px;*/
+}
+
+.preview{
+  position:fixed;
+  bottom:0;
+  right:0;
+  width:33%;
+  height:auto;
+  -webkit-animation: sw 500ms 1 ease;
+          animation: sw 500ms 1 ease;
+}
+.preview img{
+  width:100%;
+}
+
+@-webkit-keyframes sw{
+  0%{
+    -webkit-transform:translate(0%,100%);
+            transform:translate(0%,100%);
+  }
+}
+
+@keyframes sw{
+  0%{
+    -webkit-transform:translate(0%,100%);
+            transform:translate(0%,100%);
+  }
+}
