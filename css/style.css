@@ -1,12 +1,12 @@
 .navbar{
     margin-bottom: 0px;
-    font-family: "Arial Narrow", Arial, sans-serif;;
+    font-family: "Cambria", Cambria, sans-serif;;
 }
 
 .jumbotron h1{
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
   text-transform: uppercase;
-  font-size: 64px;
+  font-size: 94px;
   color: #A9E2F3;
   background-color: #FFFFFF;
 }
