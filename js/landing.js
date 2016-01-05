@@ -13,7 +13,7 @@ $("#toggle").click(function(event) {
       "margin-top": "0px"
     }, "fast");
     $("#content").animate({
-      "margin-top": "80px"
+      "margin-top": "10px"
     }, "fast");
     $(this).addClass("isDown");
   }
