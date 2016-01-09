@@ -122,8 +122,11 @@ h4 {
 }
 
 .about{
-  padding-right:7px;
-  padding-left:7px;
+  font-family: "Cambria", sans-serif;;
+  color: purple;
+  font-size: 16px;
+  margin: .25em;
+  padding: .5em .75em;
 }
 
 #big-cloud {
