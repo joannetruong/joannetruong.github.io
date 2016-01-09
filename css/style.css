@@ -108,6 +108,9 @@ h2 {
   margin-left: 80;
   margin-right: 80;
 }
+
+.top-buffer { margin-top:20px; }
+
 .about{
   font-family: "Cambria", sans-serif;;
   color: white;
