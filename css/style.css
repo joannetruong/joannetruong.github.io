@@ -140,11 +140,10 @@ body {
   background-color: #ffffff;
 }
 .clip-text {
-  font-size: 120px;
+  font-size: 110px;
   font-weight: bold;
   position: relative;
   display: inline-block;
-  margin: .25em;
   padding: .5em .75em;
   text-align: center;
   color: #ffffff;
