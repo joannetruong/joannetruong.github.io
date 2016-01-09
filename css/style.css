@@ -117,7 +117,9 @@ h2 {
 h4 {
     font-family: "Cambria", sans-serif;;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
+  padding-right:7px;
+  padding-left:7px;
 }
 
 #big-cloud {
