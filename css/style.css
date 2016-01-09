@@ -116,11 +116,12 @@ h4 {
 
 .about{
   font-family: "Cambria", sans-serif;;
-  color: white;
+  color: green;
   font-size: 16px;
   color: white;
   font-size: 16px;
-  border: 10px solid transparent;
+  padding-right: 5px;
+  padding-right: 5px;
 }
 
 #big-cloud {
