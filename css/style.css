@@ -109,6 +109,11 @@ h5{
   font-size: 13px;
 }
 
+h5:p{
+  color: white;
+  font-size: 13px;
+}
+
 .proj{
   margin-left: 80;
   margin-right: 80;
