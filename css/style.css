@@ -14,7 +14,7 @@ html, body {
 
 #content {
   margin-top: 60px;
-  font-family: "Cambria", , sans-serif;;
+  font-family: "Cambria", sans-serif;;
   text-transform: uppercase;
   font-size: 100px;
   color: white;
@@ -105,6 +105,11 @@ h3 {
 }
 h3:hover {
   color: rgba(36, 142, 255, 0.8);
+}
+
+h2 {
+    font-family: "Cambria", sans-serif;;
+    color: white;
 }
 
 #big-cloud {
