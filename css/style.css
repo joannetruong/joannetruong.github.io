@@ -10,6 +10,8 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
 }
 
 #content {
@@ -109,7 +111,13 @@ h3:hover {
 
 h2 {
     font-family: "Cambria", sans-serif;;
+    color: rgba(36, 142, 255, 0.8);
+}
+
+h4 {
+    font-family: "Cambria", sans-serif;;
     color: white;
+    font-size: 12px;
 }
 
 #big-cloud {
@@ -140,15 +148,13 @@ h2 {
   box-shadow: 0 8px 6px -6px black;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #ffffff;
-}
+
 .clip-text {
-  font-size: 110px;
+  font-size: 90px;
   font-weight: bold;
   position: relative;
   display: inline-block;
+  margin: .25em;
   padding: .5em .75em;
   text-align: center;
   color: #ffffff;
@@ -209,4 +215,3 @@ body {
 {0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
 @keyframes anim
 {0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
-
