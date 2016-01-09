@@ -127,8 +127,9 @@ h4 {
 
 .about{
   font-family: "Cambria", sans-serif;;
-  color: white;
+  color: green;
   font-size: 16px;
+  padding: 0px, 20px;
 }
 
 #big-cloud {
