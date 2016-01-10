@@ -145,6 +145,8 @@ body {
   padding: .5em .75em;
   text-align: center;
   color: #ffffff;
+  border-radius: 0%;
+  border: 20px solid white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
