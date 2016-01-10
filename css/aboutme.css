@@ -77,12 +77,12 @@ h2 {
 
 h5{
   color: white;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h6{
   color:#190707;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .proj{
@@ -120,7 +120,7 @@ h6{
 }
 
 .team-img {
-  border-radius: 50%;
+  border-radius: 25%;
   border: 5px solid white;
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
