@@ -1,0 +1,150 @@
+.navbar{
+    margin-bottom: 0px;
+    font-family: "Cambria", Cambria, sans-serif;;
+}
+
+.jumbotron h1{
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;
+  font-size: 64px;
+  color: #A9E2F3;
+  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+body,html {
+  height: 50%;
+  background: url(http://imageshack.us/a/img35/3203/kl31.jpg) no-repeat center center fixed;
+} 
+
+}
+
+.jumbotron p {
+  margin-left: 10%;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+}
+
+h1 {
+  color: #ECCEF5;
+}
+
+.make-me-red {
+  color: #9A2EFE;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+
+/* ~~~~~~~~transition copy~~~~~~~~~~~~~*/
+
+.clip-text {
+  font-size: 90px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin: .25em;
+  padding: .5em .75em;
+  text-align: center;
+  color: #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+  position: absolute;
+  content: '';
+}
+
+.clip-text:before {
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: inherit;
+  background-size: cover;
+  -webkit-animation: anim 3s infinite ease-in;
+  -moz-animation: anim 3s infinite ease-in;
+  -ms-animation: anim 3s infinite ease-in;
+  animation: anim 3s infinite ease-in;
+}
+
+.clip-text:after {
+  position: absolute;
+  z-index: -1;
+  top: .125em;
+  right: .125em;
+  bottom: .125em;
+  left: .125em;
+  background-color: #ffffff;
+}
+
+.clip-text_one {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/wallpaper.jpg);
+  background-size: cover;
+  -webkit-animation: anim 3s infinite linear;
+  -moz-animation: anim 3s infinite ease-in;
+  -ms-animation: anim 3s infinite ease-in;
+  animation: anim 3s infinite ease-in;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}
+
+@-moz-keyframes anim {
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}
+
+@-ms-keyframes anim {
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}
+
+@keyframes anim {
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}
+
+
