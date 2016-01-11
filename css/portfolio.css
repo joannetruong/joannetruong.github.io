@@ -83,7 +83,7 @@ h5{
     color: black;
     margin-left: 80;
     margin-right: 80;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h6{
@@ -92,13 +92,14 @@ h6{
     margin-left: 80;
     margin-right: 80;
     font-size: 30px;
+    font-weight: bold;
 }
 h4{
     font-family: "Cambria", sans-serif;;
     color: white;
     margin-left: 80;
     margin-right: 80;
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .proj{
