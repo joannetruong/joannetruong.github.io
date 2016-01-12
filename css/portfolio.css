@@ -73,9 +73,10 @@ h3:hover {
 
 h2 {
     font-family: "Cambria", sans-serif;;
-    color: rgba(36, 142, 255, 0.8);
+    color: black;
     margin-left: 80;
     margin-right: 80;
+    font-size: 20px;
 }
 
 h5{
