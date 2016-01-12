@@ -1,150 +1,155 @@
-.navbar{
-    margin-bottom: 0px;
-    font-family: "Cambria", Cambria, sans-serif;;
+* {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-.jumbotron h1{
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+#content {
+  margin-top: 60px;
+  font-family: "Cambria", sans-serif;;
   text-transform: uppercase;
-  font-size: 64px;
-  color: #A9E2F3;
-  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
-  font-weight: bold;
-  text-align: center;
-  background-color: #FFFFFF;
+  font-size: 100px;
+  color: white;
 }
 
-body,html {
-  height: 50%;
-  background: url(http://imageshack.us/a/img35/3203/kl31.jpg) no-repeat center center fixed;
-} 
-
+.navbar-inner li {
+  line-height: 40px;
+  letter-spacing: 2px;
 }
 
-.jumbotron p {
-  margin-left: 10%;
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+.nav-link {
+  border-top: 4px solid white;
+  transition: border-top .3s;
+}
+.nav-link:hover {
+  border-top: 4px solid dodgerblue;
 }
 
-h1 {
-  color: #ECCEF5;
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+  background-image: none;
+  background-color: dodgerblue;
 }
 
-.make-me-red {
-  color: #9A2EFE;
+.brand {
+  letter-spacing: 4px;
+  border-top: 0px solid white;
+  transition: border-top .3s;
+}
+.brand:hover {
+  border-top: 4px solid dodgerblue;
+}
+.brand:hover {
+  border-top: 4px solid dodgerblue;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #ffffff;
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  /* remove the gradient */
+  background-image: none !important;
+  border-bottom: 2px solid dodgerblue !important;
+  line-height: 40px !important;
+  box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
 }
 
-/* ~~~~~~~~transition copy~~~~~~~~~~~~~*/
-
-.clip-text {
-  font-size: 90px;
-  font-weight: bold;
-  position: relative;
-  display: inline-block;
-  margin: .25em;
-  padding: .5em .75em;
-  text-align: center;
-  color: #ffffff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -ms-background-clip: text;
-  -ms-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+.footer {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  /* W3C */
+  /* remove the gradient */
+  border: 0 !important;
+  box-shadow: none !important;
 }
 
-.clip-text:before,
-.clip-text:after {
+.center {
+  margin: auto;
   position: absolute;
-  content: '';
-}
-
-.clip-text:before {
-  z-index: -2;
-  top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  background-image: inherit;
-  background-size: cover;
-  -webkit-animation: anim 3s infinite ease-in;
-  -moz-animation: anim 3s infinite ease-in;
-  -ms-animation: anim 3s infinite ease-in;
-  animation: anim 3s infinite ease-in;
+  right: 0;
 }
 
-.clip-text:after {
+@import "compass/css3";
+
+$gbuttons:#EDC951;
+$info:#00A0B0;
+$blue: #D4E1FC;
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+  background-image:url('http://imageshack.us/a/img35/3203/kl31.jpg');
+  //background-repeat:no-repeat;
+  //background-size:100% 100%;
+}
+
+body{
+  font-family: 'Pacifico', cursive;
+  -webkit-font-smoothing: antialiased;
+}
+
+#perspective{ 
+  position:fixed;
+  top:200px;
+  left:50%;
+  margin-left: -270px;
+  perspective:1000;
+}
+
+#container{//adds shadow to envelope
+  box-shadow: 0px 2px 10px hsla(0,0%,10%,1);
+  position: relative;
+  width: 500px;
+  height: 320px;
+  transform-style: preserve-3d;
+  z-index:-6;
+  @include border-radius(5px);
+  transform: rotate(3deg); 
+}
+
+
+.face{
   position: absolute;
-  z-index: -1;
-  top: .125em;
-  right: .125em;
-  bottom: .125em;
-  left: .125em;
-  background-color: #ffffff;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  backface-visibility:hidden;
+
 }
 
-.clip-text_one {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/wallpaper.jpg);
-  background-size: cover;
-  -webkit-animation: anim 3s infinite linear;
-  -moz-animation: anim 3s infinite ease-in;
-  -ms-animation: anim 3s infinite ease-in;
-  animation: anim 3s infinite ease-in;
+.front{//front of the card before turned
+  background-image: -webkit-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px,#ffffff 0px,#ffffff 40px,#85adff 0px,#85adff 60px,#ffffff 0px,#ffffff 80px);
+  background-image: -moz-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px,#ffffff 0px,#ffffff 40px,#85adff 0px,#85adff 60px,#ffffff 0px,#ffffff 80px);
+  background-image: repeating-linear-gradient(150deg, #ff6969, #ff6969 20px,#ffffff 0px,#ffffff 40px,#85adff 0px,#85adff 60px,#ffffff 0px,#ffffff 80px);
+  z-index: 20;
+   @include border-radius(5px);
+
 }
 
-@-webkit-keyframes anim {
-  0% {
-    background-position: top;
-  }
-  50% {
-    background-position: bottom;
-  }
-  100% {
-    background-position: top;
-  }
+#white{
+  width:95%;
+  height:90%;
+  margin-right: auto; 
+  margin-left:auto;
+  margin-top: -5px;
+  background:hsla(54,0%,96%,1);
+  @include border-radius(5px);
 }
 
-@-moz-keyframes anim {
-  0% {
-    background-position: top;
-  }
-  50% {
-    background-position: bottom;
-  }
-  100% {
-    background-position: top;
-  }
+.front h1{
+  font-family: "Cambria", sans-serif;;
+  color: rgba(36, 142, 255, 0.8);
+  text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+  font-size: 2em; 
+  line-height: 1em;
+  text-align: center;
+  padding-top: 80px;
 }
 
-@-ms-keyframes anim {
-  0% {
-    background-position: top;
-  }
-  50% {
-    background-position: bottom;
-  }
-  100% {
-    background-position: top;
-  }
+.front h1 span{
+  color: #948D88;
+  text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+  font-size: .8em;
+  text-align: center;
 }
-
-@keyframes anim {
-  0% {
-    background-position: top;
-  }
-  50% {
-    background-position: bottom;
-  }
-  100% {
-    background-position: top;
-  }
-}
-
-
