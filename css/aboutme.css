@@ -70,7 +70,8 @@ h3 {
 
 h2 {
     font-family: "Cambria", sans-serif;;
-    color: white;
+    color: black;
+    font-weight: bold;
     margin-left: 80;
     margin-right: 80;
 }
@@ -81,7 +82,7 @@ h5{
 }
 
 h6{
-  color:#190707;
+  color:white;
   font-size: 16px;
 }
 
@@ -93,7 +94,7 @@ h6{
 
 .about{
   font-family: "Cambria", sans-serif;;
-  color: black;
+  color: white;
   font-size: 18px;
   margin-left: 80;
   margin-right: 150;
