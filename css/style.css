@@ -107,7 +107,7 @@ h6{
 
 
 .about{
-  font-family: "Cambria", sans-serif;;
+  font-family: "Cambria", sans-serif;
   color: white;
   font-size: 16px;
   margin-left: 80;
@@ -136,10 +136,6 @@ h6{
 
 .team-img {
   border-radius: 25%;
-  border: 5px solid white;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
 }
 
 body {
@@ -149,16 +145,11 @@ body {
 
 
 .clip-text {
-  font-size: 110px;
+  font-size: 150px;
+  font-family: "Cambria", sans-serif;
   font-weight: bold;
   position: relative;
-  display: inline-block;
-  margin: .25em;
-  padding: .5em .75em;
   text-align: center;
-  color: #ffffff;
-  border-radius: 0%;
-  border: 20px solid white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
@@ -196,11 +187,10 @@ body {
   right: .125em;
   bottom: .125em;
   left: .125em;
-  background-color: #ffffff;
 }
 
 .clip-text_one {
-  background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/wallpaper.jpg);
+  background-image:url('../img/stripes.svg');
   background-size: cover;
   -webkit-animation:anim 3s infinite linear;
   -moz-animation:anim 3s infinite ease-in;
@@ -221,7 +211,8 @@ body {
 
 body,html {
 height: 100%;
-background: url('../img/clouds.jpg') center center fixed;
+background: url('../img/blue.jpg');
+/*background: url('../img/clouds.jpg') center center fixed;*/
 background-size: cover;
 background-attachment: fixed;
 background-repeat: repeat-x;
