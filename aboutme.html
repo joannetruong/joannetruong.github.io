@@ -1,217 +1,41 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
-  <!--Favicon-->    
-<link rel="icon" type="../image/png" href="img/paw.png">
-<title>Joanne Truong</title>
+<head>
+    <title>Joanne Truong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+  <link rel="icon" type="../image/png" href="img/paw.png">
+<!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+</head>
 
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<!-- JavaScript's jQuery library is also necessary for Bootstrap-->
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<!-- Latest compiled and minified JavaScript for Bootstrap-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/aboutme.css"></style>
-  </head>
-  <body>
+<body>
+<!-- Navbar begins -->
+    <div class="container">
+    <ul class="navbar navbar-fixed-top">
+        <a id="projects" href="projects.html"> Projects </a>
+        <a id="experience" href="experience.html"> Experience </a>
+        <a id="home" href="index.html"> Home </a>
+        <!-- add home button -->
+        <a id="aboutme" href="aboutme.html"> About Me </a>
+        <a id="contact" href="contact.html"> Contact </a>
+    </ul>
+</div>
+<!-- Navbar ends -->
 
-
-    <!-- Start of Navbar-->
-<div class='navbar navbar-static-top'>
-  <nav class='navbar-inner header'>
-    <div class='container'>
-    <div class="collapse navbar-collapse navHeaderCollapse">
-      <ul class="nav navbar-nav navbar-left">
-        <li>
-          <a href="index.html" class='brand'>
-            JOANNE TRUONG<i class="fa fa-paw fa-lg" style="text-shadow: 1px 1px white, -1px -1px #666;"></i>
-          </a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="portfolio.html" class='nav-link'>
-            PORTFOLIO <i class="fa fa-folder-o"></i>
-          </a>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">ABOUT<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="img/resume.pdf" >Resume</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="contact.html" class='nav-link'>
-            CONTACT
-          </a>
-        </li>
-      </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+              <img class="circular " src="img/index/joanne.jpg">
+            </div>
+            <div class="col-sm-7 caption">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </div>
+        </div>
     </div>
-    </div>
-  </nav>
-  <br>
-</div>
 
-
-<!--About Me-->
-<div class = 'span6'>
-          <div class='row-fluid' style= 'margin-left: 150';>
-        <div class="col-lg-4 col-sm-6">
-                <img class='team-img' src='img/Husky.jpg'>
-        </div>
-        <div class='col-lg-8 col-sm-6 text-justify'>
-            <h2> ABOUT ME <i class='fa fa-paw fa fa-lg' ></i></h2>
-            <div class ='about text-justify'>
-                Hi! My name is Joanne, and I'm currently a second year at Northeastern University, majoring in Electrical and Computer Engineering with a minor in Mathematics. I'm from New York City, and went to Stuyvesant High School where I was first introduced to robotics and developed a passion for engineering. I love working with and programming robots, and I'm fascinated with how electrical components can come together to give life to an otherwise hunk of metal. I strive to become an electrical and computer engineer by tackling projects ranging from developing software for a 3D printer capable of printing live cells to building maze-solving robots. I decided to create my own website over winter break, and jumped into this project with no prior knowledge of website design. I taught myself over the break, and I eventually created this website through trial and error, and lots of googling. 
-               <br><br><br>
-            </div>
-          </div>
-          </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-<!---- HOBBIES ----> 
-<div class = 'span12'>
-<div class='row-fluid'>
-  <div class='text-left'>
-    <h2> HOBBIES    <i class='fa fa-heart-o fa fa-md' ></i></h2> 
-  </div>
-</div>
-</div>
-        <div class="col-md-2 col-sm-3 text-center">
-                <img class='team-img' src='img/Swimming.jpg'>
-                <h5>Swimming
-                </h5>
-        </div>
-        <div class="col-md-2 col-sm-3 text-center">
-                <img class='team-img' src='img/Baking.jpg'>
-                <h5>Baking
-                </h5>
-        </div>
-        <div class="col-md-2 col-sm-3 text-center">
-                <img class='team-img' src='img/Traveling.jpg'>
-                <h5> Traveling
-                </h5>
-        </div>
-                <div class="col-md-2 col-sm-3 text-center">
-                <img class='team-img' src='img/Ziplining.jpg'>
-                <h5>Ziplining
-                </h5>
-        </div>
-        <div class="col-md-2 col-sm-3 text-center">
-                <img class='team-img' src='img/Museum.jpg'>
-                <h5>Going to museums
-                </h5>
-        </div>
-        <div class="col-md-2 col-sm-3 text-center">
-                <img class='team-img' src='img/Bridge.jpg'>
-                <h5>Sightseeing
-                </h5>
-        </div>
-</div>
-
-<br><br><br><br><br><br><br><br>
-
-<!---- INVOLVEMENT ----> 
-<div class = 'invovement'>
-        <div class = 'span12'>
-          <div class='row-fluid'>
-             <div class='text-left'>
-              <h2> INVOLVEMENT    <i class='fa fa-group fa fa-md' ></i></h2> 
-            </div>
-          </div>
-        </div>
-        <div class='row-fluid'>
-        <div class="col-lg-4 col-sm-6 text-center">
-                <img class='team-img' src='img/SASE.jpg'>
-<!--                 <a class="btn btn-lg" href="sase.html"  style='color: white' role="button">Society of Asian Scientists and Engineers</a> -->
-                <h5>Society of Asian Scientists and Engineers
-                </h5>
-                <h6>Programs Chair <br>
-                Finance and Logistics Subcommittee</h6>
-        </div>
-        <div class="col-lg-4 col-sm-6 text-center">
-                <img class='team-img' src='img/VSA.jpg'>
-                <h5>Vietnamese Student Association
-                  <br><br><br>
-                </h5>
-        </div>
-        <div class="col-lg-4 col-sm-6 text-center">
-                <img class='team-img' src='img/VSADANCE.jpg'>
-                <h5> Vietnamese Student Association Dance Group
-                  <br><br><br>
-                </h5>
-
-        </div>
-        </div>
-
-
-        <div class = 'span12'>     
-          <div class='row-fluid'>
-             <div class='text-left'>
-              <h3> .</h3> 
-            </div>
-          </div>
-        </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                <img class='team-img' src='img/CSA.jpg'>
-                <h5> Chinese Student Association
-                  <br><br><br>
-                </h5>
-
-        </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                <img class='team-img' src='img/ASU.jpg'>
-                <h5> Asian Student Union
-                  <br><br><br>
-                </h5>
-
-        </div>
-                <div class="col-lg-4 col-sm-6 text-center">
-                <img class='team-img' src='img/ASUDANCE.jpg'>
-                <h5> Asian Student Union Dance Group
-                  <br><br><br>
-                </h5>
-
-        </div>
-
-<!---- EDUCATION ----> 
-        <div class = 'span12'>
-          <div class='row-fluid'>
-             <div class='col-md-12 text-left'>
-              <h2> EDUCATION    <i class='fa fa-graduation-cap fa-md' ></i></h2> 
-            </div>
-          </div>
-        </div>
-        <div class='row-fluid'>
-        <div class="col-lg-6 col-sm-6 text-center">
-                <img class='team-img' src='img/NEU.jpg'>
-              <h5>Northeastern University
-              </h5>
-              <h6>Electrical and Computer Engineering
-                <br>
-                Minor in Mathematics
-                <br>
-                Class of 2019
-                <br><br><br>
-                </h6>
-        </div>
-        <div class="col-lg-6 col-sm-6 text-center">
-                <img class='team-img' src='img/Stuyvesant.jpg'>
-                <h5>Stuyvesant High School
-                </h5>
-                <h6> Class of 2014
-                  <br><br><br>
-                </h6>
-        </div>
-
-</div>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-<script src='js/aboutme.js'></script>   
- </body>
+<script src="js/bootstrap.js"></script>
+</body>
 </html>
