@@ -1,34 +1,191 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Joanne Truong</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Favicon -->
+  <title>Joanne Truong</title>
   <link rel="icon" type="../image/png" href="img/paw.png">
-<!-- Fonts + Icons -->
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<!-- CSS --> 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/index.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- JavaScript's jQuery library is also necessary for Bootstrap-->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <!-- Latest compiled and minified JavaScript for Bootstrap-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css"></style>
 </head>
-
 <body>
-<!-- Navbar -->
-    <div class="container">
-        <ul class="navbar navbar-fixed-top">
-            <a id="projects" href="projects.html"> Projects </a>
-            <a id="experience" href="experience.html"> Experience </a>
-            <i class="fa fa-home fa-3x" id="home" href="index.html"></i>
-            <!-- add home button -->
-            <a id="aboutme" href="aboutme.html"> About Me </a>
-            <a id="contact" href="contact.html"> Contact </a>
-        </ul>
+
+  <!-- Start of Navbar-->
+  <div class='navbar navbar-static-top'>
+    <nav class='navbar-inner header'>
+      <div class='container'>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href="index.html" class='brand'>
+                JOANNE TRUONG<i class="fa fa-paw fa-lg" style="text-shadow: 1px 1px white, -1px -1px #666;"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="portfolio.html" class='nav-link'>
+                PORTFOLIO <i class="fa fa-folder-o"></i>
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">ABOUT<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="img/resume.pdf" >Resume</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="contact.html" class='nav-link'>
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+  </div>
+
+  <!-- JOANNE TRUONG -->
+  <div align="center" >
+    <div class="clip-text clip-text_one">JOANNE TRUONG</div>
+  </div>
+
+  <!---- Projects ---->
+  <div class="proj">
+    <div class='row-fluid'>
+      <p><a class="btn btn-lg" href="portfolio.html"  style='color: white' role="button">VIEW PORTFOLIO <i class='fa fa-folder-o'></i> </a></p>
+    </div>
+    <div class='row-fluid'>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <img class='team-img' src='img/celljet.jpg'>
+        <h5>Software Developer & Research Assistant
+        </h5>
+        <h6>Cell Jet Printer
+          <br><br><br>
+        </h6>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <img class='team-img' src='img/wpi.jpg'>
+        <h5>Research Assistant at WPI
+        </h5>
+        <h6> Impact Testing Machine
+          <br><br><br>
+        </h6>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <img class='team-img' src='img/linerobot.jpg'>
+        <h5> Robotics
+        </h5>
+        <h6> Line Tracing Robot
+          <br><br><br>
+        </h6>
+
+      </div>
     </div>
 
-<!-- Content -->
+    <!---- 2nd row ---->
+    <div class='row-fluid'>
+      <p><a class="btn btn-lg" href="aboutme.html"  style='color: white' role="button">VIEW INVOLVEMENT <i class='fa fa-group'></i> </a></p>
+    </div>
+    <div class='row-fluid'>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <img class='team-img' src='img/SASE.jpg'>
+        <h5>Society of Asian Scientists and Engineers
+        </h5>
+        <h6>Programs Chair <br>
+          Finance and Logistics Subcommittee</h6>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center">
+          <img class='team-img' src='img/VSA.jpg'>
+          <h5>Vietnamese Student Association
+            <br><br><br>
+          </h5>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center">
+          <img class='team-img' src='img/VSADANCE.jpg'>
+          <h5> Vietnamese Student Association Dance Group
+            <br><br><br>
+          </h5>
+          <br>
+        </div></div>
 
-    <script src="js/bootstrap.js"></script>
-</body>
-</html>
+        <!---- 3rd Row ---->
+        <div>
+          <div class='row-fluid'>
+            <p><a class="btn btn-lg" href="aboutme.html"  style='color: white' role="button">VIEW EDUCATION <i class='fa fa-graduation-cap '></i> </a></p>
+          </div>
+          <div class='row-fluid'>
+            <div class="col-lg-6 col-sm-6 text-center">
+              <img class='team-img' src='img/NEU.jpg'>
+              <h5>Northeastern University
+              </h5>
+              <h6>Electrical and Computer Engineering
+                <br>
+                Minor in Mathematics
+                <br>
+                Class of 2019
+                <br><br><br>
+              </h6>
+            </div>
+            <div class="col-lg-6 col-sm-6 text-center">
+              <img class='team-img' src='img/Stuyvesant.jpg'>
+              <h5>Stuyvesant High School
+              </h5>
+              <h6> Class of 2014
+                <br><br><br>
+              </h6>
+            </div></div>
+
+          </div>
+        </div>
+
+<!-- <link href='http://fonts.googleapis.com/css?family=Montserrat:700|Amatic+SC' rel='stylesheet' type='text/css'>
+<div align="center" >
+      <div class="clip-text clip-text_one">JOANNE TRUONG</div>
+    </div> -->
+
+
+    <!---- About Me ---->
+    <div class="row-fluid">
+      <div class='col-md-12' style='background-color:rgba(0, 0, 0, .7);'>
+        <div class='span6'>
+          <div class='row-fluid'>
+            <div class='col-md-6'>
+              <h2> ABOUT ME </h2>
+              <div class ='about text-justify'>
+                Hi! I'm Joanne, and I was born and raised in New York. I'm currently a student in Boston who strives to become an electrical and computer engineer by tackling projects ranging from developing software for a 3D printer capable of printing live cells to building maze-solving robots. I decided to create my own website over winter break, and jumped into this project with no prior knowledge of website design. I taught myself over the break, and I eventually created this website through trial and error, and lots of googling. 
+                <br><br>
+                Part-time baking aficionado, swimmer, explorer, and lover of all desserts. 
+                <br><br><br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='span6 text-left'>
+          <div class='row-fluid'>
+            <div class='col-md-1'>
+              <br><br><br><br>
+              <i class='fa fa-paw' id='big-paw' style='text-shadow: 1px 1px white, -1px -1px #666;'></i>
+            </div>
+            <div class='col-md-5 text-center'>
+              <h2>GET IN TOUCH <i class="fa fa-comments fa-lg" ></i></h2> 
+              <div class ='about' >
+                <i class="fa fa-envelope fa-2x"></i> <br> <h4>truong.j@husky.neu.edu </h4>
+              </div>
+              <div class = 'about'>
+                <i class="fa fa-linkedin fa-2x"></i></i> <br> <a href="https://www.linkedin.com/in/joanne-truong-49b263108"> <h4>Linkedin</h4>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/landing.js"></script>
+    </html>
