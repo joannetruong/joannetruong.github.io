@@ -1,35 +1,220 @@
-
-
-.active{
-  background: #68b8c4;
+* {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-button:focus{
-  outline: 0 none;
+#content {
+  margin-top: 60px;
+  font-family: "Cambria", sans-serif;;
+  text-transform: uppercase;
+  font-size: 100px;
+  color: white;
 }
 
-.product-grid:after{
-  display: inline-block;
-  width: 100%;
+.navbar-inner li {
+  line-height: 40px;
+  letter-spacing: 2px;
 }
 
-.product-grid .mix,
-.product-grid .gap{
-  display: inline-block;
+.nav-link {
+  border-top: 4px solid white;
+  transition: border-top .3s;
+}
+.nav-link:hover {
+  border-top: 4px solid dodgerblue;
 }
 
-.product-grid .mix{
-  display: none;
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+  background-image: none;
+  background-color: dodgerblue;
+}
+
+.brand {
+  letter-spacing: 4px;
+  border-top: 0px solid white;
+  transition: border-top .3s;
+}
+.brand:hover {
+  border-top: 4px solid dodgerblue;
+}
+.brand:hover {
+  border-top: 4px solid dodgerblue;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  /* remove the gradient */
+  background-image: none !important;
+  border-bottom: 2px solid dodgerblue !important;
+  line-height: 40px !important;
+  box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
+}
+
+.footer {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  /* W3C */
+  /* remove the gradient */
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.center {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+h3 {
+  transition: color .5s;
+}
+h3:hover {
+  color: rgba(36, 142, 255, 0.8);
+}
+
+h2 {
+    font-family: "Cambria", sans-serif;;
+    color: rgba(36, 142, 255, 0.8);
+    margin-left: 80;
+    margin-right: 80;
+}
+h4 {
+    font-family: "Cambria", sans-serif;;
+    color: rgba(36, 142, 255, 0.8);
+    font-size: 18px;
+    margin-left: 80;
+    margin-right: 80;
+}
+
+h5{
+  color: white;
+  font-size: 18px;
+  font-family: "Cambria", sans-serif;;
+  font-weight: bold;
+}
+
+h6{
+  color:#190707;
+  font-size: 16px;
+  font-family: "Cambria", sans-serif;;
+  font-weight: bold;
 }
 
 
-
-.product-grid .mix:after{
-
-  display: inline-block;
-
+.proj{
+  margin-left: 80;
+  margin-right: 80;
 }
 
-.product-grid .mix:before{
-  display: inline-block;
+
+.about{
+  font-family: "Cambria", sans-serif;
+  color: white;
+  font-size: 16px;
+  margin-left: 80;
+  margin-right: 80;
 }
+
+#big-paw {
+  color: white;
+  opacity: .8;
+  font-size: 100px;
+  text-shadow: 1px 1px white, -1px -1px #666;
+}
+
+.dropdown-menu::before,
+.dropdown-menu::after {
+  border: none;
+  content: none !important;
+}
+
+.dropdown-menu {
+  border-radius: 3%;
+  z-index: -3;
+  margin-top: -10px;
+  margin-right: -60% !important;
+}
+
+.team-img {
+  border-radius: 25%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+
+
+.clip-text {
+  font-size: 150px;
+  font-family: "Cambria", sans-serif;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+  position: absolute;
+  content: '';
+}
+
+.clip-text:before {
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: inherit;
+  background-size: cover;
+  -webkit-animation:anim 3s infinite ease-in;
+  -moz-animation:anim 3s infinite ease-in;
+  -ms-animation:anim 3s infinite ease-in;
+  animation:anim 3s infinite ease-in;
+}
+
+.clip-text:after {
+  position: absolute;
+  z-index: -1;
+  top: .125em;
+  right: .125em;
+  bottom: .125em;
+  left: .125em;
+}
+
+.clip-text_one {
+  background-image:url('../img/stripes.svg');
+  background-size: cover;
+  -webkit-animation:anim 3s infinite linear;
+  -moz-animation:anim 3s infinite ease-in;
+  -ms-animation:anim 3s infinite ease-in;
+  animation:anim 3s infinite ease-in;
+}
+
+@-webkit-keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+@-moz-keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+@-ms-keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+@keyframes anim
+{0%{background-position: top;}50%{background-position: bottom;}100%{background-position: top;}}
+
+
+
+body,html {
+height: 100%;
+background: url('../img/blue.jpg');
+/*background: url('../img/clouds.jpg') center center fixed;*/
+background-size: cover;
+background-attachment: fixed;
+background-repeat: repeat-x;
+}
+
