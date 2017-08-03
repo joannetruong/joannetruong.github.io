@@ -7,72 +7,94 @@
       <link rel="icon" type="../image/png" href="img/paw.png">
     <!-- CSS -->
         <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
-        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="css/projects.css">
+        <link rel="stylesheet" href="css/filter.css">
     </head>
     <body>
-    <!-- Navbar begins -->
-        <div class="navbar navbar-fixed-top">
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top hidden-xs">
             <a id="projects" href="projects.html"> Projects </a>
             <a id="experience" href="experience.html"> Experience </a>
             <a id="home" href="index.html"> Home </a>
             <!-- add home button -->
             <a id="aboutme" href="aboutme.html"> About Me </a>
             <a id="contact" href="contact.html"> Contact </a>
-        </div>
-    <!-- Navbar ends -->
-        <div class="container">
-                <div class="controls" style="text-align:center;">
-                        <a><button style="color:black;" class="filter" data-filter="all" class="white-border filter">All</button></a>
-                        <a><button style="color:black;" class="white-border filter" data-filter=".software">SOFTWARE</button></a>
-                        <a><button style="color:black;" class="white-border filter" data-filter=".hardware">HARDWARE</button></a>
-                </div>
-            <br><br>
-                <div id="product-grid" class="product-grid">
-                    <div class="row">
-                    <div class="mix software col-md-4 image opaque">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                    <div class="mix software col-md-4">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                    <div class="mix hardware col-md-4">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                </div>
-                <br><br>
-                            <div class="row">
-                    <div class="mix software col-md-4 image opaque">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                    <div class="mix software col-md-4">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                    <div class="mix hardware col-md-4">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                </div>
-                <br><br>
-                            <div class="row">
-                    <div class="mix software col-md-4 image opaque">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                    <div class="mix software col-md-4">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                    <div class="mix hardware col-md-4">
-                        <img src="img/projects/lane-detection.png" class="center-block img-responsive lazy"/>
-                    </div>
-                </div>
-            </div>
+    </div>
 
-            </div>
+    <nav class="navbar navbar-default navbar-fixed-top visible-xs">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle Navbar</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a style="color: white" href="#" class="navbar-brand">Joanne Truong</a>
         </div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
-    <script src='https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2'></script>
-    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
-    <script src="js/projects.js"></script>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse" align="center">
+            <ul class="nav navbar-nav">
+                <li><a style="color: white" href="projects.html">Projects</a></li>
+                <li><a style="color: white" href="experience.html">Experience</a></li>
+                <li><a style="color: white" href="aboutme.html">About Me</a></li>
+                <li><a style="color: white" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar ends -->
+        
+    <div class="controls" style="text-align:center;">
+            <a><button style="color:black;" class="filter" data-filter="all" class="white-border filter">All</button></a>
+            <a><button style="color:black;" class="white-border filter" data-filter=".software">SOFTWARE</button></a>
+            <a><button style="color:black;" class="white-border filter" data-filter=".hardware">HARDWARE</button></a>
+    </div>
+    <br><br>
+    <div id="product-grid" class="product-grid">
+        <div class="mix software col-md-4 image">
+            <img class="image opaque" src="img/projects/lane-detection.png" height="250" width="375"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix hardware col-md-4 image">
+            <img class="image opaque" src="img/projects/lane-detection.png" height="250" width="375"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix software hardware col-md-4 image">
+            <img class="image opaque" src="img/projects/lane-detection.png" height="250" width="375"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix hardware col-md-4 image">
+            <img class="image opaque" src="img/projects/lane-detection.png" height="250" width="375"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix software col-md-4 image">
+            <img class="image opaque" src="img/projects/lane-detection.png" height="250" width="375"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix hardware col-md-4 image">
+            <img class="image opaque" src="img/projects/lane-detection.png" height="250" width="375"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+
+    </div>
+
+
+    <script src='js/jquery.min.js'></script>
+    <script src='js/jquery.mixitup.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/filter.js"></script>
     </body>
 </html>

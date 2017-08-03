@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Joanne Truong</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Favicon -->
   <link rel="icon" type="../image/png" href="img/paw.png">
@@ -12,23 +13,50 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 <!-- Navbar -->
-    <div class="container">
-        <ul class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top hidden-xs">
             <a id="projects" href="projects.html"> Projects </a>
             <a id="experience" href="experience.html"> Experience </a>
-            <i class="fa fa-home fa-3x" id="home" href="index.html"></i>
+            <a id="home" href="index.html"> Home </a>
             <!-- add home button -->
             <a id="aboutme" href="aboutme.html"> About Me </a>
             <a id="contact" href="contact.html"> Contact </a>
-        </ul>
     </div>
+
+    <nav class="navbar navbar-default navbar-fixed-top visible-xs">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle Navbar</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a style="color: white" href="#" class="navbar-brand">Joanne Truong</a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse" align="center">
+            <ul class="nav navbar-nav">
+                <li><a style="color: white" href="projects.html">Projects</a></li>
+                <li><a style="color: white" href="experience.html">Experience</a></li>
+                <li><a style="color: white" href="aboutme.html">About Me</a></li>
+                <li><a style="color: white" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
 <!-- Content -->
 
-    <script src="js/bootstrap.js"></script>
+    
+
+
 </body>
-</html>
+</html>                                     
+
+
