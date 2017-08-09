@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Joanne Truong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+  <link rel="icon" type="../image/png" href="img/paw.png">
+<!-- Fonts + Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+<!-- CSS --> 
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/filter.css">
+</head>
+
+<body>
+<!-- Navbar -->
+    <div class="navbar navbar-fixed-top hidden-xs">
+            <a id="projects" href="index.html"> Projects </a>
+            <a id="experience" href="../experience/index.html"> Experience </a>
+            <a id="home" href="../index.html"> Home </a>
+            <!-- add home button -->
+            <a id="aboutme" href="../aboutme.html"> About Me </a>
+            <a id="contact" href="../contact.html"> Contact </a>
+    </div>
+
+    <nav class="navbar navbar-default navbar-fixed-top visible-xs">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle Navbar</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a style="color: white" href="../index.html" class="navbar-brand">Joanne Truong</a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse" align="center">
+            <ul class="nav navbar-nav">
+                <li><a style="color: white" href="index.html">Projects</a></li>
+                <li><a style="color: white" href="../experience/index.html">Experience</a></li>
+                <li><a style="color: white" href="../aboutme.html">About Me</a></li>
+                <li><a style="color: white" href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- Navbar ends -->
+
+    <div class="controls" style="text-align:center;">
+            <a><button style="color:black;" class="filter" data-filter="all" >All</button></a>
+            <a><button style="color:black;" class="filter" data-filter=".software">SOFTWARE</button></a>
+            <a><button style="color:black;" class="filter" data-filter=".hardware">HARDWARE</button></a>
+    </div>
+
+    <br><br>
+
+    <center>
+
+    <div id="product-grid" class="product-grid">
+        <div class="mix software image">
+            <a href = "lane_detection.html">
+            <img class="image opaque img-responsive" src="../img/projects/lane-detection.png" height="450" width="450"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix hardware image">
+            <a href = "lane_detection.html">
+            <img class="image opaque img-responsive" src="../img/projects/lane-detection.png" height="450" width="450"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix software hardware image">
+            <a href = "lane_detection.html">
+            <img class="image opaque img-responsive" src="../img/projects/lane-detection.png" height="450" width="450"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix software image">
+            <a href = "lane_detection.html">
+            <img class="image opaque img-responsive" src="../img/projects/lane-detection.png" height="450" width="450"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix software image">
+            <a href = "lane_detection.html">
+            <img class="image opaque img-responsive" src="../img/projects/lane-detection.png" height="450" width="450"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+        <div class="mix hardware image">
+            <a href = "lane_detection.html">
+            <img class="image opaque img-responsive" src="../img/projects/lane-detection.png" height="450" width="450"/>
+            <p class="image-descrip">Detect lanes using computer vision</p>
+                </a>
+                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+        </div>
+   
+    </div>
+    </center>
+
+
+    <script src='../js/jquery.min.js'></script>
+    <script src='../js/jquery.mixitup.min.js'></script>
+    <script src='../js/bootstrap.min.js'></script>
+    <script src="../js/filter.js"></script>
+</body>
+</html>
