@@ -16,8 +16,10 @@
 }
 
 .image{
-  width: 375;
-  height: 375;
+  display: inline-block;
+  width: 425px;
+  height: 300px;
+  margin: 0 auto;
 /*	max-width:100%;
 	max-height:100%;*/
 }
@@ -37,11 +39,12 @@
     color: white;
     padding-bottom: 25px;
 }
+
 .image-descrip {
     position:absolute;
     text-align:center;
     top:50px;
-    width:90%;
+    width:100%;
     opacity:0; 
     color: white;
     font-size: 30px;
