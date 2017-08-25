@@ -16,8 +16,8 @@
 <body>
 <!-- Navbar -->
     <div class="navbar navbar-fixed-top hidden-xs">
-            <a id="projects" href="index.html"> Projects </a>
-            <a id="experience" href="../experience/index.html"> Experience </a>
+            <a id="projects" href="index.html"> Portfolio </a>
+            <a id="experience" href="../experience/index.html"> Involvement </a>
             <a id="home" href="../index.html"> Home </a>
             <!-- add home button -->
             <a id="aboutme" href="../aboutme.html"> About Me </a>
@@ -38,8 +38,8 @@
         <!-- Collection of nav links and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse" align="center">
             <ul class="nav navbar-nav">
-                <li><a style="color: white" href="index.html">Projects</a></li>
-                <li><a style="color: white" href="../experience/index.html">Experience</a></li>
+                <li><a style="color: white" href="index.html">Portfolio</a></li>
+                <li><a style="color: white" href="../experience/index.html">Leadership</a></li>
                 <li><a style="color: white" href="../aboutme.html">About Me</a></li>
                 <li><a style="color: white" href="../contact.html">Contact</a></li>
             </ul>
@@ -51,6 +51,7 @@
             <a><button style="color:black;" class="filter" data-filter="all" >All</button></a>
             <a><button style="color:black;" class="filter" data-filter=".software">SOFTWARE</button></a>
             <a><button style="color:black;" class="filter" data-filter=".hardware">HARDWARE</button></a>
+            <a><button style="color:black;" class="filter" data-filter=".research">RESEARCH</button></a>
     </div>
 
     <br><br>
@@ -58,6 +59,13 @@
     <center>
 
     <div id="product-grid" class="product-grid">
+        <div class="mix software hardware image">
+            <a href = "conED.html">
+            <img class="image opaque img-responsive" src="../img/projects/nextdroid/conED/temp_sensor_crop.JPG" height="300" width="425"/>
+            <p class="image-descrip">IoT sensor reading</p>
+            </a>
+            <p class="image-caption">NextDroid</p>
+        </div>
         <div class="mix software image">
             <a href = "lane_detection.html">
             <img class="image opaque img-responsive" src="../img/projects/lane_detection/lane-detection.png" height="300" width="425"/>
@@ -73,32 +81,53 @@
             <p class="image-caption">Picky Pusheen</p>
         </div>
         <div class="mix software image">
+            <a href = "nrl.html">
+            <img class="image opaque img-responsive" src="../img/projects/boston_engineering/NRL/Interface_Live_Stream.JPG" height="300" width="425"/>
+            <p class="image-descrip">GUI Design</p>
+                </a>
+                <p class="image-caption">Boston Engineering</p>
+        </div>
+        <div class="mix hardware image">
+            <a href = "nvs.html">
+            <img class="image opaque img-responsive" src="../img/projects/boston_engineering/NVS/NVS_PADS_Layout.PNG" height="300" width="425"/>
+            <p class="image-descrip">Circuit Board Design</p>
+                </a>
+                <p class="image-caption">Boston Engineering</p>
+        </div>
+        <div class="mix hardware image">
+            <a href = "dil.html">
+            <img class="image opaque img-responsive" src="../img/projects/boston_engineering/DIL/DIL_Block_Diagram.PNG" height="300" width="425"/>
+            <p class="image-descrip">Wiring and AutoCAD diagrams</p>
+                </a>
+                <p class="image-caption">Boston Engineering</p>
+        </div>
+        <div class="mix hardware image">
+            <a href = "krg.html">
+            <img class="image opaque img-responsive" src="../img/projects/boston_engineering/KRG/KRG_02.JPG" height="300" width="425"/>
+            <p class="image-descrip">Debugging circuits and running tests</p>
+                </a>
+                <p class="image-caption">Boston Engineering</p>
+        </div>
+        <div class="mix software image">
             <a href = "picky_husky.html">
             <img class="image opaque img-responsive" src="../img/projects/picky_husky/picky-husky.png" height="300" width="425"/>
             <p class="image-descrip">Dining hall foods avaliability text message notifications</p>
                 </a>
                 <p class="image-caption">Picky Husky</p>
         </div>
-        <div class="mix software image">
-            <a href = "lane_detection.html">
-            <img class="image opaque img-responsive" src="../img/projects/lane_detection/lane-detection.png" height="300" width="425"/>
-            <p class="image-descrip">Detect lanes using computer vision</p>
+        <div class="mix research software image">
+            <a href = "celljet.html">
+            <img class="image opaque img-responsive" src="../img/projects/celljet/celljet.jpg" height="300" width="425"/>
+            <p class="image-descrip">Research on 3D printing live tissues</p>
                 </a>
-                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+                <p class="image-caption">Celljet Research</p>
         </div>
-        <div class="mix software image">
-            <a href = "lane_detection.html">
-            <img class="image opaque img-responsive" src="../img/projects/lane_detection/lane-detection.png" height="450" width="450"/>
-            <p class="image-descrip">Detect lanes using computer vision</p>
+        <div class="mix software hardware research image">
+            <a href = "wpi.html">
+            <img class="image opaque img-responsive" src="../img/projects/wpi/wpi.jpg" height="450" width="450"/>
+            <p class="image-descrip">Magnetorheological damper location optimization</p>
                 </a>
-                <p class="image-caption">Lane Detection with OpenCV & Python</p>
-        </div>
-        <div class="mix hardware image">
-            <a href = "lane_detection.html">
-            <img class="image opaque img-responsive" src="../img/projects/lane_detection/lane-detection.png" height="450" width="450"/>
-            <p class="image-descrip">Detect lanes using computer vision</p>
-                </a>
-                <p class="image-caption">Lane Detection with OpenCV & Python</p>
+                <p class="image-caption">Research at WPI</p>
         </div>
    
     </div>
