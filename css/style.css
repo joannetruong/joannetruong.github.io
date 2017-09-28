@@ -22,12 +22,8 @@ button:focus{
   display: none;
 }
 
-
-
 .product-grid .mix:after{
-
   display: inline-block;
-
 }
 
 .product-grid .mix:before{
