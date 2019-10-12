@@ -2,13 +2,14 @@
 background-color: #313131;
 margin: auto;
 width: 100%;
-}
-
-#projects:hover{
 border-bottom: 2px solid #FFFFFF;
 }
 
-#involvement:hover{
+/*#research:hover{
+border-bottom: 2px solid #FFFFFF;
+}
+
+#joanne:hover{
 border-bottom: 2px solid #FFFFFF;
 }
 
@@ -16,30 +17,36 @@ border-bottom: 2px solid #FFFFFF;
 border-bottom: 2px solid #FFFFFF;
 }
 
-#aboutme:hover{
+#cv:hover{
 border-bottom: 2px solid #FFFFFF;
 }
 
 #contact:hover{
 border-bottom: 2px solid #FFFFFF;
+}*/
+
+#joanne{
+  display: inline-block;
+  text-align: center;
+  padding-right: 30vw;
+  line-height: 5vw;
+  height: 4vw;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 10vw;
+  color: #FFFFFF;
 }
 
-/*#home{
-  width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 25px;
-}*/
-#projects, #involvement, #home, #aboutme, #contact {
+#publications, #home, #cv {
   display: inline-block;
   text-align: center;
 /*  padding-right: 5vw;*/
   line-height: 5vw;
   height: 4vw;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: none;
+  font-weight: bold;
   width: 10vw;
   color: #FFFFFF;
 }
