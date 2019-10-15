@@ -67,6 +67,17 @@ h1{
   font-size:18px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
+  text-decoration: none;
+}
+
+.authors:hover{
+  color:#CAFFD8; ;
+  text-decoration: none;
+}
+
+.links:hover{
+  color:#D1A0A0; ;
+  text-decoration: none;
 }
 
 .anchor {
