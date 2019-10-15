@@ -62,6 +62,13 @@ h1{
   text-align: left;
 }
 
+.links{
+  color:#D1A0A0; 
+  font-size:18px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
 .anchor {
   display: block;
   position: relative;
