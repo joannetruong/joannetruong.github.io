@@ -80,6 +80,16 @@ h1{
   text-decoration: none;
 }
 
+.advisers{
+  color:#C0F7FE; ;
+  text-decoration: none;
+}
+
+.advisers:hover{
+  color:#C0F7FE; ;
+  text-decoration: none;
+}
+
 .anchor {
   display: block;
   position: relative;
