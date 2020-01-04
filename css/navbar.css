@@ -1,8 +1,8 @@
 .navbar {
-background-color: #313131;
+background-color: #fbfbfb;
 margin: auto;
 width: 100%;
-border-bottom: 2px solid #FFFFFF;
+border-bottom: 2px solid black;
 }
 
 /*#research:hover{
@@ -35,7 +35,7 @@ border-bottom: 2px solid #FFFFFF;
   text-decoration: none;
   font-weight: bold;
   width: 10vw;
-  color: #FFFFFF;
+  color: black;
 }
 
 #publications, #home, #cv {
@@ -48,7 +48,7 @@ border-bottom: 2px solid #FFFFFF;
   text-decoration: none;
   font-weight: bold;
   width: 10vw;
-  color: #FFFFFF;
+  color: black;
 }
 
 /*#projects, #subintro {background-color: #E74C3C;}
@@ -60,7 +60,7 @@ border-bottom: 2px solid #FFFFFF;
 body, html{
   text-align: center;
   font-family: 'Julius Sans One', serif;
-  background-color: #313131;
+  background-color: #fbfbfb;
   margin: 0;
   font-size: 100%;
   font-weight: inherit;

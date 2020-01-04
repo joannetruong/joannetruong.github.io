@@ -23,48 +23,57 @@
 }
 
 h1{
-	font-size: 20px;
+	font-size: 18px;
 	color: #d88eff;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  border-top: 1px solid #737373;
+}
+
+
 .section_head{
-  color:#F2BCFE; 
+  color:#ff33cc; 
   font-size:25px;
   font-family: 'Julius Sans One', sans-serif;
   font-weight: bold;
 }
 
 .descrip{
-	color:white; 
-	font-size:18px;
+	color:black; 
+	font-size:16px;
 	font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 
 .subhead{
-  color:#B8E2EF; 
-  font-size:20px;
+  color:#1ab2ff; 
+  font-size:18px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 
 .location{
-  color:#FFE6D0; 
-  font-size:18px;
+  color:#ff8c1a; 
+  font-size:16px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 
 .authors{
-  color:#CAFFD8; 
-  font-size:18px;
+  color:#2eb82e; 
+  font-size:16px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 
 .links{
-  color:#D1A0A0; 
-  font-size:18px;
+  color:#cc0000; 
+  font-size:16px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
   text-decoration: none;
@@ -81,12 +90,12 @@ h1{
 }
 
 .advisers{
-  color:#C0F7FE; ;
+  color:#9933ff; ;
   text-decoration: none;
 }
 
 .advisers:hover{
-  color:#C0F7FE; ;
+  color:#9933ff; ;
   text-decoration: none;
 }
 
