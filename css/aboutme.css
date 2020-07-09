@@ -71,6 +71,13 @@ hr {
   text-align: left;
 }
 
+.publications{
+  color:#b300b3; 
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
 .links{
   color:#cc0000; 
   font-size:16px;
