@@ -40,8 +40,8 @@ border-bottom: 2px solid #FFFFFF;
 
 #publications, #home, #cv {
   display: inline-block;
-  text-align: center;
-/*  padding-right: 5vw;*/
+  text-align: right;
+  padding-left: 5vw;
   line-height: 5vw;
   height: 4vw;
   font-size: 20px;
