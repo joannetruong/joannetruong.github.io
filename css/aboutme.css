@@ -101,6 +101,16 @@ hr {
   text-decoration: none;
 }
 
+.mentees{
+  color:#3366ff;
+  text-decoration: none;
+}
+
+.mentees:hover{
+  color:#3366ff;
+  text-decoration: none;
+}
+
 .fellowships{
   color:#009999;
   text-decoration: none;
