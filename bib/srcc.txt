@@ -1,0 +1,6 @@
+@article{habitatsim2real20ral,
+  title={Sim2Real Predictivity: Does Evaluation in Simulation Predict Real-World Performance?},
+  author={Abhishek Kadian and Joanne Truong and Aaron Gokaslan and Alexander Clegg and Erik Wijmans and Stefan Lee and Manolis Savva and Sonia Chernova and Dhruv Batra},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2020}
+}

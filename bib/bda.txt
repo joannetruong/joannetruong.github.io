@@ -1,0 +1,10 @@
+@article{truong2021bi,
+  title={Bi-directional Domain Adaptation for Sim2Real Transfer of Embodied Navigation Agents},
+  author={Truong, Joanne and Chernova, Sonia and Batra, Dhruv},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  volume={6},
+  number={2},
+  pages={2634--2641},
+  year={2021},
+  publisher={IEEE}
+}
