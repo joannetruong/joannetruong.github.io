@@ -1,0 +1,7 @@
+@inproceedings{kelecstemur2019system,
+  title={System Architecture for Autonomous Mobile Manipulation of Everyday Objects in Domestic Environments},
+  author={Kele{\c{s}}temur, Tarik and Yokoyama, Naoki and Truong, Joanne and Allaban, Anas Abou and Padir, Ta{\c{s}}kin},
+  booktitle={Proceedings of the 12th ACM International Conference on PErvasive Technologies Related to Assistive Environments},
+  pages={264--269},
+  year={2019}
+}
