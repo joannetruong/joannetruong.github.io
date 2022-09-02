@@ -1,0 +1,46 @@
+
+.circular {
+  border-radius: 50%;
+  width: 400px;
+  max-width:100%;
+  height: auto;
+  overflow:hidden
+}
+
+.title{
+  color:black; 
+  font-size:22px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.authors{
+  color:black; 
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.descrip{
+  color:black; 
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.white_descrip{
+  color:white; 
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.block{
+  width: 80%;
+  background-size: contain;
+  border: 1px solid white;
+}
+
+.block_half{
+  width: 49%;
+}

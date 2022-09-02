@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Joanne Truong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Favicon -->
+  <link rel="icon" type="../img/index/apt.png" href="img/index/apt.png">
+<!-- Fonts + Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/academicons.min.css"/>
+<!-- CSS --> 
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/project.css">
+</head>
+
+<body>
+<!-- Navbar -->
+    <div class="navbar navbar-fixed-top hidden-xs">
+        <a id="joanne" href="../index.html"> Home </a>
+        <a id="publications" href="../index.html#research-anchor"> Research </a>
+        <a id="cv" href="https://drive.google.com/file/d/1dA2OAqWtWHIYec-Yy4ZNAqK49wbeoyvj/view"> CV </a>
+    </div>
+
+    <nav class="navbar navbar-default navbar-fixed-top visible-xs">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle Navbar</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a style="color: black" href="../index.html" class="navbar-brand">Joanne</a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse" align="center">
+            <ul class="nav navbar-nav">
+                <li><a style="color:black; font-weight:bold" href="../index.html#research-anchor">Research</a></li>
+                <li><a style="color:black; font-weight:bold" href="https://drive.google.com/file/d/1dA2OAqWtWHIYec-Yy4ZNAqK49wbeoyvj/view">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+<!-- Content -->
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <p class="title">Rethinking Sim2Real: Lower Fidelity Simulation Leads to Higher Sim2Real Transfer in Navigation</p>
+                </div>
+                <div class="col-xs-2">
+                    <img class="circular" src="../img/index/truong_joanne.jpg"/>
+                    <br><br>
+                    <p class="authors"><a href="http://joannetruong.com/">Joanne Truong<sup>1</sup></a></p>
+                </div>
+                <div class="col-xs-2">
+                    <img class="circular" src="../img/index/collaborators/max.png"/>
+                    <br><br>
+                    <p class="authors"><a href="https://maxrudolph1.github.io/">Max Rudolph<sup>1</sup></a></p>
+                </div>
+                <div class="col-xs-2">
+                    <img class="circular" src="../img/index/collaborators/naoki.jpeg"/>
+                    <br><br>
+                    <p class="authors"><a href="http://naoki.io/">Naoki Yokoyama<sup>1</sup></a></p>
+                </div>
+                <div class="col-xs-2">
+                    <img class="circular" src="../img/index/collaborators/sonia.png"/>
+                    <br><br>
+                    <p class="authors"><a href="https://faculty.cc.gatech.edu/~chernova/">Sonia Chernova<sup>1</sup></a></p>
+                </div>
+                <div class="col-xs-2">
+                    <img class="circular" src="../img/index/collaborators/dhruv.jpeg"/>
+                    <br><br>
+                    <p class="authors"><a href="https://faculty.cc.gatech.edu/~dbatra/">Dhruv Batra<sup>1,2</sup></a></p>
+                </div>
+                <div class="col-xs-2">
+                    <img class="circular" src="../img/index/collaborators/akshara.jpeg"/>
+                    <br><br>
+                    <p class="authors"><a href="https://ai.facebook.com/people/akshara-rai/">Akshara Rai<sup>2</sup></a></p>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+        <div class="row">
+            <p class="descrip"> <sup>1</sup> Georgia Institute of Technology &nbsp; &nbsp; <sup>2</sup> Meta AI</p>
+        </div>
+        <div class="row">
+            <a class="btn btn-primary white_descrip" href="https://github.com/joannetruong/habitat-lab/tree/kin2dyn" role="button">
+            <i class="fa fa-github fa-1x" style="color:white;"></i>
+            GitHub</a>
+            <a class="btn btn-primary white_descrip" href="https://arxiv.org/abs/2207.10821" role="button">
+            <i class="ai ai-arxiv fa-1x" style="color:white;"></i>
+            arXiv</a>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+<!--                 <center>
+                    <img class="block" src="../img/projects/kin2dyn/kin2dyn_full.gif">
+                </center> -->
+                <p class="descrip" style='text-align:left'>Can sim2real transfer be improved by <b>decreasing</b> simulation fidelity? 
+                <br><br>
+                If we want to train robots in simulation before deploying them in reality, it seems natural and almost self-evident to presume that reducing the sim2real gap involves creating simulators of increasing fidelity (since reality is what it is). We challenge this assumption and present a contrary hypothesis – sim2real transfer of robots may be improved with lower (not higher) fidelity simulation.
+                <br><br>
+                Specifically, we propose that instead of training robots entirely in simulation, we use classical ideas from hierarchical robot control to decompose the policy into a ‘high-level policy’ (that is trained solely in simulation) and a ‘low-level controller’ (that is designed entirely on hardware and may even be a black-box controller shipped by a manufacturer). This decomposition means that the simulator does not need to model low-level dynamics, which can save both simulation time (since there is no need to simulate expensive low-level controllers), and developer time spent building and designing these controllers.
+                <center>
+                    <img class="block" src="../img/projects/kin2dyn/architecture.png">
+                </center>
+                <br><br>
+                <p class="descrip" style='text-align:left'>We train policies for the task of PointGoal Navigation using two physics fidelities – kinematic and dynamic. Kinematic simulation uses abstracted physics and ‘teleports’ the robot to the next state using Euler integration; kinematic policies command robot center-of-mass (CoM) linear and angular velocities. Dynamic simulation consists of rigid-body mechanics and simulates contact dynamics (via Bullet); dynamic policies command CoM linear and angular velocities, which are converted to robot joint-torques by a low-level controller operating at 240 Hz.</p>
+                <center>
+                    <img class="block" src="../img/projects/kin2dyn/kin_v_dyn.gif">
+                </center>
+                <br><br>
+                <p class="descrip" style='text-align:left'>We conduct a systematic large-scale evaluation of this hypothesis on the problem of visual navigation – in the real world, and on 2 different simulators (Habitat and iGibson) using 3 different robots (A1, AlienGo, Spot). Our results show that, contrary to expectation, adding fidelity does not help with learning. Below, we show the average success rates for sim2sim and kinematic2dynamic transfer for A1, Aliengo and Spot. We see that the kinematic trained policies perform the best overall (<span style="color:red">red</span> quadrants), and also often outperform the dynamic trained policies, even when evaluated using dynamic control (<span style="color:green">green</span> quadrants vs. <span style="color:orange">orange</span> quadrants).</p>
+                <center>
+                    <img class="block" src="../img/projects/kin2dyn/heatmaps.png">
+                </center>
+                <p class="descrip" style='text-align:left'>The reasons for these improvements are perhaps unsurprising in hindsight – learning-based methods overfit to simulators, and present-day physics simulators have approximations and imperfections that do not transfer to the real-world. A second equally significant mechanism is also in play – lower fidelity simulation is typically faster, enabling policies to be trained with more experience under a fixed wall-clock budget; although the kinematic and dynamic policies were trained with the same compute for the same amount of time, the kinematic policy was able to learn from 20× data as the dynamic policy.
+                <center>
+                    <img class="block" src="../img/projects/kin2dyn/kin2dyn_scale.gif">
+                </center>
+                <p class="descrip" style='text-align:left'>We evaluate the kinematic and dynamic policies on a Spot robot in a novel LAB environment. Note that scans of LAB were not part of training. We evaluate 3 seeds of each policy over 5 episodes in the real-world and report the average success rate (SR) and Success weighted by Path Length (SPL). All kinematic policies achieve a high success rate of 100% and SPL of 82-83% (rows 3 and 4). On the other hand, the success rate drops to 40-67% for the dynamic policies (rows 1 and 2). We notice that the dynamic policies typically commanded lower velocities, and often get stuck around obstacles.</p> 
+                <center>
+                    <img class="block" src="../img/projects/kin2dyn/real_world.png">
+                    <img class="block_half" src="../img/projects/kin2dyn/kin_real.gif">
+                    <img class="block_half" src="../img/projects/kin2dyn/dyn_real.gif">
+                </center>
+                <br><br>
+                <p class="descrip" style='text-align:left'>While our results are presented on legged locomotion and visual navigation, the underlying principle– of architecting hierarchical policies and only training the high-level policy in an abstracted simulation – is broadly applicable. We hope that our work leads to a rethink in how the research community pursues sim2real and in how we develop the simulators of tomorrow. Specifically, our findings suggest that instead of investing in higher-fidelity physics, the field should prioritize simulation speed for tasks that can be represented with abstract action spaces.</p>
+            </div>
+            <div class="col-sm-1">
+            </div>
+        </div>
+
+        
+
+        <div class="row">
+            <p class="title" style='text-align:left'> Citation </p>
+            <pre style='text-align:left'>
+<code>@inproceedings{truong2022kin2dyn,
+title={Rethinking Sim2Real: Lower Fidelity Simulation Leads to Higher Sim2Real Transfer in Navigation}, 
+author={Joanne Truong and Max Rudolph and Naoki Yokoyama and Sonia Chernova and Dhruv Batra and Akshara Rai}, 
+booktitle = {arXiv}, 
+year={2022}
+}</code>
+            </pre>
+        </div>
+    </div>
+
+    <script src='../js/jquery.min.js'></script>
+    <script src='../js/bootstrap.min.js'></script>
+</body>
+    
+</html>                                     
