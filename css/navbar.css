@@ -33,7 +33,6 @@ border-bottom: 2px solid #FFFFFF;
   height: 4vw;
   font-size: 20px;
   text-decoration: none;
-  font-weight: bold;
   width: 10vw;
   color: black;
 }
@@ -46,7 +45,6 @@ border-bottom: 2px solid #FFFFFF;
   height: 4vw;
   font-size: 20px;
   text-decoration: none;
-  font-weight: bold;
   width: 10vw;
   color: black;
 }
@@ -59,11 +57,11 @@ border-bottom: 2px solid #FFFFFF;
 
 body, html{
   text-align: center;
-  font-family: 'Julius Sans One', serif;
+  font-family: 'Roboto', serif;
   background-color: #fbfbfb;
   margin: 0;
-  font-size: 100%;
   font-weight: inherit;
+  font-size: 100%;
   font-style: normal;
   vertical-align: baseline;
   border: 0;
