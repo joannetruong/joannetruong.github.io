@@ -1,4 +1,4 @@
-@article{truong2020learning,
+@inproceedings{truong2020learning,
   title={Learning Navigation Skills for Legged Robots with Learned Robot Embeddings},
   author={Truong, Joanne and Yarats, Denis and Li, Tianyu and Meier, Franziska and Chernova, Sonia and Batra, Dhruv and Rai, Akshara},
   booktitle={International Conference on Intelligent Robots and Systems (IROS)},
