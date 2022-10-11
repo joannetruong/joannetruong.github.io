@@ -1,5 +1,5 @@
 @inproceedings{truong2022kin2dyn,
-  title={Rethinking Sim2Real: Lower Fidelity Simulation Leads to Higher Sim2Real Transfer in Navigation}, 
+  title={{Rethinking Sim2Real: Lower Fidelity Simulation Leads to Higher Sim2Real Transfer in Navigation}}, 
   author={Joanne Truong and Max Rudolph and Naoki Yokoyama and Sonia Chernova and Dhruv Batra and Akshara Rai}, 
   booktitle={Conference on Robot Learning (CoRL)},
   year={2022}

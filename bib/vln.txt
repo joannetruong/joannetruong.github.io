@@ -1,7 +1,6 @@
 @inproceedings{anderson2020sim,
-  title={Sim-to-Real Transfer for Vision-and-Language Navigation},
+  title={{Sim-to-Real Transfer for Vision-and-Language Navigation}},
   author={Peter Anderson and Ayush Shrivastava and Joanne Truong and Arjun Majumdar and Devi Parikh and Dhruv Batra and Stefan Lee},
-  year={2020},
-  URL={https://arxiv.org/pdf/2011.03807.pdf},
   booktitle={Conference on Robot Learning (CoRL)}
+  year={2020},
 }
