@@ -221,6 +221,7 @@
                 <p class="descrip" style='text-align:left'>We evaluate the kinematic and dynamic policies on a Spot robot in a novel LAB environment. Note that scans of LAB were not part of training. We evaluate 3 seeds of each policy over 5 episodes in the real-world and report the average success rate (SR) and Success weighted by Path Length (SPL). All kinematic policies achieve a high success rate of 100% and SPL of 82-83% (rows 3 and 4). On the other hand, the success rate drops to 40-67% for the dynamic policies (rows 1 and 2). We notice that the dynamic policies typically commanded lower velocities, and often get stuck around obstacles.</p> 
                 <center>
                     <img class="block" src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/real_world.png">
+                    <br><br>
                     <video playsinline autoplay muted loop style="width: 49%" class="webby">
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/kin_real.mp4" type="video/mp4"></source>
                     </video>
@@ -228,8 +229,9 @@
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/dyn_real.mp4" type="video/mp4"></source>
                     </video>
                 </center>
-                <br><br><br>
+                <br>
                 <p class="descrip" style='text-align:left'>While our results are presented on legged locomotion and visual navigation, the underlying principle– of architecting hierarchical policies and only training the high-level policy in an abstracted simulation – is broadly applicable. We hope that our work leads to a rethink in how the research community pursues sim2real and in how we develop the simulators of tomorrow. Specifically, our findings suggest that instead of investing in higher-fidelity physics, the field should prioritize simulation speed for tasks that can be represented with abstract action spaces.</p>
+                <br>
                 <p class="descrip" style='text-align:center'>Here's a summary if you're short on time :) </p>
                 <center>
                     <video controls style="width: 100%" class="webby">
