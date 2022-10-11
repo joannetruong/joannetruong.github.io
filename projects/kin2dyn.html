@@ -211,10 +211,10 @@
                 <center>
                     <img class="block" src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/heatmaps.png">
                 </center>
-                <p class="descrip" style='text-align:left'>The reasons for these improvements are perhaps unsurprising in hindsight – learning-based methods overfit to simulators, and present-day physics simulators have approximations and imperfections that do not transfer to the real-world. A second equally significant mechanism is also in play – lower fidelity simulation is typically faster, enabling policies to be trained with more experience under a fixed wall-clock budget; although the kinematic and dynamic policies were trained with the same compute for the same amount of time, the kinematic policy was able to learn from 20× data as the dynamic policy.
+                <p class="descrip" style='text-align:left'>The reasons for these improvements are perhaps unsurprising in hindsight – learning-based methods overfit to simulators, and present-day physics simulators have approximations and imperfections that do not transfer to the real-world. A second equally significant mechanism is also in play – lower fidelity simulation is typically faster, enabling policies to be trained with more experience under a fixed wall-clock budge. Even when the kinematic policies were trained for 2.3× less wall-clock time than the dynamic policies (with the same compute), the kinematic policies were able to learn from 10× the amount of data.
                 <center>
                     <video playsinline autoplay muted loop style="width: 100%" class="webby">
-                      <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/kin2dyn_scale.mp4" type="video/mp4"></source>
+                      <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/kin2dyn_scale_v2_c.mp4" type="video/mp4"></source>
                     </video>
                 </center>
 
@@ -228,8 +228,14 @@
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/dyn_real.mp4" type="video/mp4"></source>
                     </video>
                 </center>
-                <br><br>
+                <br><br><br>
                 <p class="descrip" style='text-align:left'>While our results are presented on legged locomotion and visual navigation, the underlying principle– of architecting hierarchical policies and only training the high-level policy in an abstracted simulation – is broadly applicable. We hope that our work leads to a rethink in how the research community pursues sim2real and in how we develop the simulators of tomorrow. Specifically, our findings suggest that instead of investing in higher-fidelity physics, the field should prioritize simulation speed for tasks that can be represented with abstract action spaces.</p>
+                <p class="descrip" style='text-align:center'>Here's a summary if you're short on time :) </p>
+                <center>
+                    <video controls style="width: 100%" class="webby">
+                      <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/teaser_c.mp4" type="video/mp4"></source>
+                    </video>
+                </center>
             </div>
             <div class="col-sm-1">
             </div>
