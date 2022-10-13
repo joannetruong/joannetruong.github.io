@@ -28,6 +28,14 @@
   text-decoration: none;
 }
 
+.descrip_large{
+  color:black; 
+  font-size:25px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .white_descrip{
   color:white; 
   font-size:16px;
