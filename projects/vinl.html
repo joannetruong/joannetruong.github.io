@@ -111,28 +111,28 @@
                 We present Visual Navigation and Locomotion over obstacles (ViNL), which enables a quadrupedal robot to navigate unseen apartments while stepping over small obstacles that lie in its path (e.g., shoes, toys, cables). Similar to how humans and pets lift their feet over objects as they walk, ViNL walks over obstacles by learning fine-grain vision-based joint-level control. ViNL consists of: (1) a visual navigation policy that outputs linear and angular velocity commands that guides the robot to a goal coordinate in unfamiliar indoor environments; and (2) a visual locomotion policy that controls the robot’s joints to avoid stepping on obstacles while following provided velocity commands. These two policies are trained independently, and can be seamlessly be coupled together upon deployment by feeding the velocity commands from the navigation policy to the locomotion policy. While several related prior works have demonstrated learning visual navigation policies or learning robust locomotion control, to the best of our knowledge, this is the first fully learned approach that leverages vision to accomplish both (1) intelligent navigation in new environments, and (2) intelligent visual locomotion that aims to traverse cluttered environments without disrupting obstacles. We evaluate ViNL by challenging it to navigate previously unseen indoor environments containing many obstacles on the ground, and report its success rate in reaching the goal and the number of collisions per meter traveled. We find that ViNL outperforms prior work that was trained to robustly walk over challenging terrain using privileged terrain maps (+32.8% success and -4.42 collisions per meter). Additionally, we ablate our locomotion policy to show that each aspect of our approach helps reduce obstacle collisions.
                 <p class="descrip_large" style='text-align:left'>ViNL: Visual Navigation and Locomotion over obstacles</p>
                 <center>
-                    <video autoplay muted loop style="width: 100%">
+                    <video playsinline autoplay muted loop style="width: 100%" class="webby">
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/vinl/vinl.mp4" type="video/mp4"></source>
                     </video>
                 </center>
                 <br>
                 <p class="descrip_large" style='text-align:left'>Locomotion using egocentric depth vision</p>
                 <center>
-                    <video autoplay muted loop style="width: 100%">
+                    <video playsinline autoplay muted loop style="width: 100%" class="webby">
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/vinl/student.mp4" type="video/mp4"></source>
                     </video>
                 </center>
                 <br>
                 <p class="descrip_large" style='text-align:left'>Locomotion using privileged terrain maps</p>
                 <center>
-                    <video autoplay muted loop style="width: 100%">
+                    <video playsinline autoplay muted loop style="width: 100%" class="webby">
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/vinl/teacher.mp4" type="video/mp4"></source>
                     </video>
                 </center>
                 <br><br>
                 <p class="descrip" style='text-align:center'>Here's a summary if you're short on time :) </p>
                 <center>
-                    <video controls style="width: 100%">
+                    <video controls style="width: 100%" class="webby">
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/vinl/supp_vid_final_c.mp4" type="video/mp4"></source>
                     </video>
                 </center>
