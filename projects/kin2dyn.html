@@ -191,7 +191,7 @@
 <!--                 <center>
                     <img class="block" src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/kin2dyn_full.gif">
                 </center> -->
-                <p class="descrip" style='text-align:left'>Can sim2real transfer be improved by <b>decreasing</b> simulation fidelity? 
+                <p class="descrip" style='text-align:justify'>Can sim2real transfer be improved by <b>decreasing</b> simulation fidelity? 
                 <br><br>
                 If we want to train robots in simulation before deploying them in reality, it seems natural and almost self-evident to presume that reducing the sim2real gap involves creating simulators of increasing fidelity (since reality is what it is). We challenge this assumption and present a contrary hypothesis – sim2real transfer of robots may be improved with lower (not higher) fidelity simulation.
                 <br><br>
@@ -200,25 +200,25 @@
                     <img class="block" src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/architecture.png">
                 </center>
                 <br><br>
-                <p class="descrip" style='text-align:left'>We train policies for the task of PointGoal Navigation using two physics fidelities – kinematic and dynamic. Kinematic simulation uses abstracted physics and ‘teleports’ the robot to the next state using Euler integration; kinematic policies command robot center-of-mass (CoM) linear and angular velocities. Dynamic simulation consists of rigid-body mechanics and simulates contact dynamics (via Bullet); dynamic policies command CoM linear and angular velocities, which are converted to robot joint-torques by a low-level controller operating at 240 Hz.</p>
+                <p class="descrip" style='text-align:justify'>We train policies for the task of PointGoal Navigation using two physics fidelities – kinematic and dynamic. Kinematic simulation uses abstracted physics and ‘teleports’ the robot to the next state using Euler integration; kinematic policies command robot center-of-mass (CoM) linear and angular velocities. Dynamic simulation consists of rigid-body mechanics and simulates contact dynamics (via Bullet); dynamic policies command CoM linear and angular velocities, which are converted to robot joint-torques by a low-level controller operating at 240 Hz.</p>
                 <center>
                     <video playsinline autoplay muted loop style="width: 100%" class="webby">
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/kin_v_dyn.mp4" type="video/mp4"></source>
                     </video>
                 </center>
                 <br><br>
-                <p class="descrip" style='text-align:left'>We conduct a systematic large-scale evaluation of this hypothesis on the problem of visual navigation – in the real world, and on 2 different simulators (Habitat and iGibson) using 3 different robots (A1, AlienGo, Spot). Our results show that, contrary to expectation, adding fidelity does not help with learning. Below, we show the average success rates for sim2sim and kinematic2dynamic transfer for A1, Aliengo and Spot. We see that the kinematic trained policies perform the best overall (<span style="color:red">red</span> quadrants), and also often outperform the dynamic trained policies, even when evaluated using dynamic control (<span style="color:green">green</span> quadrants vs. <span style="color:orange">orange</span> quadrants).</p>
+                <p class="descrip" style='text-align:justify'>We conduct a systematic large-scale evaluation of this hypothesis on the problem of visual navigation – in the real world, and on 2 different simulators (Habitat and iGibson) using 3 different robots (A1, AlienGo, Spot). Our results show that, contrary to expectation, adding fidelity does not help with learning. Below, we show the average success rates for sim2sim and kinematic2dynamic transfer for A1, Aliengo and Spot. We see that the kinematic trained policies perform the best overall (<span style="color:red">red</span> quadrants), and also often outperform the dynamic trained policies, even when evaluated using dynamic control (<span style="color:green">green</span> quadrants vs. <span style="color:orange">orange</span> quadrants).</p>
                 <center>
                     <img class="block" src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/heatmaps.png">
                 </center>
-                <p class="descrip" style='text-align:left'>The reasons for these improvements are perhaps unsurprising in hindsight – learning-based methods overfit to simulators, and present-day physics simulators have approximations and imperfections that do not transfer to the real-world. A second equally significant mechanism is also in play – lower fidelity simulation is typically faster, enabling policies to be trained with more experience under a fixed wall-clock budge. Even when the kinematic policies were trained for 2.3× less wall-clock time than the dynamic policies (with the same compute), the kinematic policies were able to learn from 10× the amount of data.
+                <p class="descrip" style='text-align:justify'>The reasons for these improvements are perhaps unsurprising in hindsight – learning-based methods overfit to simulators, and present-day physics simulators have approximations and imperfections that do not transfer to the real-world. A second equally significant mechanism is also in play – lower fidelity simulation is typically faster, enabling policies to be trained with more experience under a fixed wall-clock budge. Even when the kinematic policies were trained for 2.3× less wall-clock time than the dynamic policies (with the same compute), the kinematic policies were able to learn from 10× the amount of data.
                 <center>
                     <video playsinline autoplay muted loop style="width: 100%" class="webby">
                       <source src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/kin2dyn_scale_v2_c.mp4" type="video/mp4"></source>
                     </video>
                 </center>
 
-                <p class="descrip" style='text-align:left'>We evaluate the kinematic and dynamic policies on a Spot robot in a novel LAB environment. Note that scans of LAB were not part of training. We evaluate 3 seeds of each policy over 5 episodes in the real-world and report the average success rate (SR) and Success weighted by Path Length (SPL). All kinematic policies achieve a high success rate of 100% and SPL of 82-83% (rows 3 and 4). On the other hand, the success rate drops to 40-67% for the dynamic policies (rows 1 and 2). We notice that the dynamic policies typically commanded lower velocities, and often get stuck around obstacles.</p> 
+                <p class="descrip" style='text-align:justify'>We evaluate the kinematic and dynamic policies on a Spot robot in a novel LAB environment. Note that scans of LAB were not part of training. We evaluate 3 seeds of each policy over 5 episodes in the real-world and report the average success rate (SR) and Success weighted by Path Length (SPL). All kinematic policies achieve a high success rate of 100% and SPL of 82-83% (rows 3 and 4). On the other hand, the success rate drops to 40-67% for the dynamic policies (rows 1 and 2). We notice that the dynamic policies typically commanded lower velocities, and often get stuck around obstacles.</p> 
                 <center>
                     <img class="block" src="https://github.com/joannetruong/website_media/raw/master/projects/kin2dyn/real_world.png">
                     <br><br>
@@ -230,7 +230,7 @@
                     </video>
                 </center>
                 <br>
-                <p class="descrip" style='text-align:left'>While our results are presented on legged locomotion and visual navigation, the underlying principle– of architecting hierarchical policies and only training the high-level policy in an abstracted simulation – is broadly applicable. We hope that our work leads to a rethink in how the research community pursues sim2real and in how we develop the simulators of tomorrow. Specifically, our findings suggest that instead of investing in higher-fidelity physics, the field should prioritize simulation speed for tasks that can be represented with abstract action spaces.</p>
+                <p class="descrip" style='text-align:justify'>While our results are presented on legged locomotion and visual navigation, the underlying principle– of architecting hierarchical policies and only training the high-level policy in an abstracted simulation – is broadly applicable. We hope that our work leads to a rethink in how the research community pursues sim2real and in how we develop the simulators of tomorrow. Specifically, our findings suggest that instead of investing in higher-fidelity physics, the field should prioritize simulation speed for tasks that can be represented with abstract action spaces.</p>
                 <br>
                 <p class="descrip" style='text-align:center'>Here's a summary if you're short on time :) </p>
                 <center>
