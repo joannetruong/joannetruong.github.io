@@ -1,0 +1,6 @@
+@article{deitke2022retrospectives,
+  title={Retrospectives on the Embodied AI Workshop},
+  author={Deitke, Matt and Batra, Dhruv and Bisk, Yonatan and Campari, Tommaso and Chang, Angel X and Chaplot, Devendra Singh and Chen, Changan and D'Arpino, Claudia P{\'e}rez and Ehsani, Kiana and Farhadi, Ali and Li, Fei-Fei and Francis, Anthony and Gan, Chuang and Grauman, Kristen and Hall, David and Han, Winson and Jain, Unnat and Kembhavi, Aniruddha and Krantz, Jacob and Lee, Stefan and Li, Chengshu and Majumder, Sagnik and Maksymets, Oleksandr and Martín-Martín, Roberto and Mottaghi, Roozbeh and Raychaudhuri, Sonia and Roberts, Mike and Savarese, Silvio and Savva, Manolis and Shridhar, Mohit and Sünderhauf, Niko and Szot, Andrew and Talbot, Ben and Tenenbaum, Joshua and Thomason, Jesse and Toshev, Alexander and Truong, Joanne and Weihs, Luca and Wu, Jiajun},
+  journal={arXiv preprint arXiv:2210.06849},
+  year={2022}
+}
