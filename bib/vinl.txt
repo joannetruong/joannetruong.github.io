@@ -1,0 +1,6 @@
+@article{kareer2022vinl,
+  title={ViNL: Visual Navigation and Locomotion Over Obstacles},
+  author={Kareer, Simar and Yokoyama, Naoki and Batra, Dhruv and Ha, Sehoon and Truong, Joanne},
+  journal={arXiv preprint arXiv:2210.14791},
+  year={2022}
+}
