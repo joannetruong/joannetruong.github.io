@@ -1,5 +1,5 @@
 @inproceedings{kareer2022vinl,
-  title={ViNL: Visual Navigation and Locomotion Over Obstacles},
+  title={{ViNL: Visual Navigation and Locomotion Over Obstacles}},
   author={Kareer, Simar and Yokoyama, Naoki and Batra, Dhruv and Ha, Sehoon and Truong, Joanne},
   booktitle={International Conference on Robotics and Automation (ICRA)},
   year={2023}
