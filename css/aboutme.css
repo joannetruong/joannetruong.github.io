@@ -152,3 +152,54 @@ hr {
   width: 100%;
   height: 100%;
 }
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-wrap {
+  color:black; 
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+  color:black; 
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+  color:black; 
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
