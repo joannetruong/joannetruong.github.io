@@ -1,0 +1,6 @@
+@inproceedings{truong2023i2o,
+  title={{IndoorSim-to-OutdoorReal: Learning to Navigate Outdoors without any Outdoor Experience}},
+  author={Joanne Truong and April Zitkovich and Sonia Chernova and Dhruv Batra and Tingnan Zhang and Jie Tan and Wenhao Yu},
+  booktitle={arxiv},
+  year={2023}
+}
