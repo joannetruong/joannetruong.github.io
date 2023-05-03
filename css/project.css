@@ -38,6 +38,22 @@
   font-weight: bold;
 }
 
+.descrip_med{
+  color:black; 
+  font-size:21px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.descrip_sm{
+  color:black; 
+  font-size:18px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .white_descrip{
   color:white; 
   font-size:16px;
