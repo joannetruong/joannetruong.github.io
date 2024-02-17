@@ -1,6 +1,6 @@
 @article{yokoyama2023adaptive,
-  title={{Adaptive Skill Coordination for Robotic Mobile Manipulation}{,
+  title={{Adaptive Skill Coordination for Robotic Mobile Manipulation}},
   author={Yokoyama, Naoki and Clegg, Alexander William and Truong, Joanne and Undersander, Eric and Yang, Jimmy and Arnaud, Sergio and Ha, Sehoon and Batra, Dhruv and Rai, Akshara},
-  journal={arXiv preprint arXiv:2304.00410},
+  journal={IEEE Robotics and Automation Letters},
   year={2023}
 }
