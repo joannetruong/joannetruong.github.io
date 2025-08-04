@@ -1,0 +1,6 @@
+@article{yokoyama2023adaptive,
+  title={{ADAPT: Actively Discovering and Adapting to Preferences for any Task}},
+  author={Maithili Patel and Xavi Puig and Ruta Desai and Roozbeh Mottaghi and Sonia Chernova and Joanne Truong and Akshara Rai},
+  journal={Conference on Language Modeling (COLM)},
+  year={2025}
+}

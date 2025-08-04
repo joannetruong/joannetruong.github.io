@@ -1,0 +1,5 @@
+@article{li2025robotmover,
+  title={{RobotMover: Learning to Move Large Objects From Human Demonstrations}},
+  author={Li, Tianyu Li and Truong, Joanne and Yang, Jimmy and Clegg, Alexander and Rai, Akshara and Ha, Sehoon and Puig, Xavier},
+  year={2025}
+}
