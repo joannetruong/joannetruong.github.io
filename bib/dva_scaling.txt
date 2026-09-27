@@ -1,0 +1,7 @@
+@article{rhoda2026webvideo,
+  author = {Rhoda AI Team},
+  title = {Does Scaling Web-Video Pre-training Help Real Robots Do Real Work?},
+  journal = {Rhoda AI Blog},
+  year = {2026},
+  note = {https://www.rhoda.ai/research/scaling-web-video-pretraining}
+}

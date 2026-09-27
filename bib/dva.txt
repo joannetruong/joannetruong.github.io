@@ -1,0 +1,6 @@
+@article{rhoda2026dva,
+    author = {Rhoda AI Team},
+    title = {Causal Video Models Are Data-Efficient Robot Policy Learners},
+    journal = {Rhoda AI Blog},
+    year = {2026},
+}
